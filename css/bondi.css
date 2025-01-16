@@ -43,9 +43,6 @@ a {
 
 /* Start Navbar */
 
-.chang-navbar {
-
-}
 
 .navbar {
     background: var(--second-color);
@@ -272,20 +269,21 @@ a {
     padding-left: 25px;
 }
 
+/* Start Visa */
 
-.contact {
+.visa {
     margin: 120px 0;
 }
 
-.contact .contact-child {
+.visa .visa-child {
     margin-top: 120px;
 }
 
-.contact img {
+.visa img {
     width: 100%;
 }
 
-.contact .info {
+.visa .info {
     overflow: hidden;
     margin: 20px 15px;
     padding: 25px 10px 25px 20px;
@@ -295,16 +293,123 @@ a {
     color: var(--second-color);
 }
 
-.contact .title h1 {
+.visa .title h1 {
     text-transform: capitalize;
     font-size: 2.4rem;
     font-weight: 800;
 }
 
-.contact .info p{
+.visa .info p{
     line-height: 1.8rem;
 }
 
+
+.issue-visa {
+    margin-top: 200px;
+}
+
+.issue-visa h1 {
+    text-transform: capitalize;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.issue-visa .text p {
+    line-height: 1.8rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--second-color);
+    color: var(--first-color);
+}
+
+.footer .copyright {
+    display: block;
+    padding: 22px 0;
+    margin-top: 11px;
+}
+
+.footer .social-list {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    list-style: none;
+    font-size: 0;
+}
+
+.footer .social-list li {
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.footer .social-list li a {
+    display: block;
+    padding: 15px;
+    box-sizing: border-box;
+    color: var(--first-color);
+}
+
+.contact {
+    background-color: var(--first-color);
+    color: var(--second-color);
+    width: 100%;
+    padding: 65px 0px;
+}
+
+.contact-top{
+    border-bottom: 1px solid var(--second-color);
+    padding-bottom: 45px;
+}
+
+.newsletter-input {
+    float: left;
+    width: 80%;
+        height: 70px;
+        padding: 0 20px;
+        margin-top: 26px;
+}
+.join-btn {
+    width: 20%;
+    height: 70px;
+    padding: 0;
+    margin-top: 26px;
+    background-color: var(--fourth-color);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-color: transparent;
+    outline: none;
+}
+.join-btn:hover {
+    background-color: var(--third-color);
+}
+
+.newsletter-input:focus,
+.newsletter-input:active {
+    outline: none;
+}
+
+.contact-bottom {
+    padding-top: 70px;
+}
+
+.contact-column h5 {
+    padding-bottom: 35px;
+}
+
+.contact-column a {
+    color: #fff;
+    display: flex;
+    font-size: 13px;
+    padding-bottom: 18px;
+}
 
 /**********************
 RESPONSIVE
@@ -341,7 +446,9 @@ RESPONSIVE
     font-size: 0.7rem;
     padding-left: 25px;
  }
-
+ .issue-visa {
+    margin-top: 40px;
+ }
 }
 
 @media only screen and (max-width: 479px) {
